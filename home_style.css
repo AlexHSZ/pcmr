@@ -1,0 +1,204 @@
+body {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	height: 100%;
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_pc_master_race_01_1920x1080.jpg");
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.logo img {
+	position: absolute;
+	top: 5%;
+	float: left;
+	height: 176px;
+	width: 300px;
+	margin-top: 15px;
+	margin-left: 10px;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.logo img:hover {
+	-webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.motto {
+	position: absolute;
+	width: auto;
+	top: 45%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	font-family: Arial;
+}
+
+.mottoh1 {
+	color: white;
+	font-family: Arial ;
+	font-size: 40px;
+}
+
+#PC1 {
+	background-color: rgb(255, 204, 0);
+	color: black;
+	padding: 3px;
+}
+
+.mottoh2 {
+	color: rgb(255, 204, 0);
+	font-size: 35px;
+}
+
+.mottoh3 {
+	color: black;
+	background-color: rgb(255, 204, 0);
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 7px; 
+	padding-right: 7px;
+	font-size: 30px;
+}
+
+.main-nav {
+	position: absolute;
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	width: auto;
+	right: 5%;	
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.main-nav a {
+	text-decoration: none;
+	line-height: 50px;
+	display: inline-block;
+	border: 1px #fff;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+.main-nav a:hover {
+	color: rgb(255, 204, 0);
+	border-bottom: 2px solid rgb(255, 205, 0);
+	transition: all 0.4s ease-in;
+	padding-bottom: 8px;
+}
+
+.button1{
+	margin-top: 50px;
+	font-family: Arial;
+}
+
+.btn1 {
+	border: 2px solid rgb(255, 205, 0);
+	padding: 8px 10px;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-right: 20px;
+	font-family: Arial;
+	font-size: 25px;
+}
+
+.btn1:hover {
+	color: black;
+	background-color: rgb(255, 204, 0);
+	transition: all 0.4s ease-in;
+	text-decoration: none;
+	font-family: Arial;
+}
+
+.info h3 {
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 25px;
+	font-family: Arial;
+	font-size: 40px;
+
+}
+
+.info h3:after {
+	width: 100px;
+	height: 3px;
+	background-color: rgb(255, 204, 0);
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.info h4 {
+	margin-top: 30px;
+}
+
+.p1 {
+	width: 70%;
+	margin-left: 15%;
+	font-family: Arial;
+	text-align: justify;
+	font-size: 20px;
+	margin-bottom: 100px;
+	
+}
+
+.pics {
+	width: 100%;
+	margin: 40px;
+	overflow: hidden;
+}
+
+.pics img {
+	width: 100%;
+	height: 175px;
+	transition: all 0.5s;
+
+}
+
+.pics img:hover {
+	transform: scale(1.05);
+}
+
+.quotes {
+	margin-top: 80px;
+	font-size: 40px;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://images2.alphacoders.com/693/thumb-1920-693895.jpg");
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: white;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.quotes h3 {
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+
+.quotes h3:after {
+	width: 100px;
+	height: 3px;
+	background-color: rgb(255, 204, 0);
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.quotes p {
+	margin-top: 40px;
+	color: white;
+	text-align: justify;
+	line-height: 25px;
+}
