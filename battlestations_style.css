@@ -1,0 +1,72 @@
+body {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	height: 100%;
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/battlestations.jpg");
+	height:100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.brand {
+	font-size: 25px;
+}
+
+.brand span {
+	background-color: rgb(255, 204, 0);
+	color: black;
+	padding: 3px;
+}
+
+.main-nav {
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	width: 100%;	
+	font-size: 20px;
+	z-index: 1;
+}
+
+.main-nav a {
+	text-decoration: none;
+	line-height: 50px;
+	display: inline-block;
+	border: 1px #fff;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+	padding-right: 8px;
+	padding-left: 8px;
+	float: left;
+}
+
+.main-nav li a:hover {
+	color: rgb(255, 204, 0);
+	background-color: rgba(42,42,42,0.7);
+}
+
+#btn {
+	padding: 9px 13px;
+}
+
+.battlestations {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	color: white;
+	font-size: 60px;
+	font-family: Arial;
+}
+
+.battlestations span {
+	color: black;
+	background-color: rgb(255, 204, 0);
+	padding: 4px;
+}

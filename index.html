@@ -5,17 +5,37 @@
 	<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="home_style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
 	<header>
 		<div class="logo">
-			<img src="http://i.imgur.com/xtPo0Qm.png">
+			<img src="img/pcmr_logo.png">
 		</div>
 		<nav class="main-nav">
-			<a href="index.html">Home</a>
-			<a href="why_pc.html">Why Choose PC?</a>
-			<a href="battlestations">Battlestations</a>
-			<a href="community.html">PCMR Communities</a>
+      		<div class="container-fluid">
+    			<div class="navbar-header">
+ 					<a class="brand"><span>PC</span> MR</a>
+ 				</div>
+ 				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="why_pc.html">Why Choose PC?</a></li>
+					<li><a href="battlestations.html">Battlestations</a></li>
+					<li><a href="community.html">PCMR Communities</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<form class="navbar-form navbar-left">
+		      			<div class="input-group">
+		        			<input type="text" class="form-control" placeholder="Search">
+		        			<div class="input-group-btn">
+		          				<button id="btn" class="btn btn-default" type="submit">
+		            				<i class="glyphicon glyphicon-search"></i>
+		            			</button>
+		            		</div>
+		            	</div>
+		            </form>
+		        </ul>
+	        </div>
 		</nav>
 			<div class="Motto">
 				<h2 class="mottoh2">GLORIOUS</h2>
@@ -26,16 +46,17 @@
 						</div>
 			</div>		
 	</header>
+</body>
 	<section class="info">
 		<h3 class=text-center>WHAT IS PC MASTER RACE?</h3>
 		<p class="p1"> 
-			The PC Master Race, sometimes referred to by its original phrasing as the Glorious PC Gaming Master Race, is both a subculture and a tongue-in-cheek term of superiority for PC gaming used among gamers, and used to compare PC gaming to console gaming. In current parlance, the term is used by PC enthusiasts both to describe themselves as a group, as well as their belief in the superiority of the PC platform in comparison to consoles, often citing features like more
+			The PC Master Race, sometimes referred to by its original phrasing as the Glorious PC Gaming Master Race, is both a subculture and a tongue-in-cheek term of superiority for PC gaming used among gamers, and used to compare PC gaming to console gaming. In current parlance, the term is used by PC enthusiasts both to describe themselves as a group, as well as their belief in the superiority of the PC platform in comparison to consoles, often citing features like more.
 		</p>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
 					<figure class="pics">
-						<img src="http://www.gameranx.com/img/14-Nov/k70rgb-header.png">
+						<img src="img/keyboard1.png">
 							<h4>Peripherals</h4>
 							<p><i class="fa fa-microchip"></i> RGB Keyboards</p>
 							<p><i class="fa fa-microchip"></i> RGB Mouses</p>
@@ -44,7 +65,7 @@
 				</div>
 				<div class="col-md-3">
 					<figure class="pics">
-						<img src="https://pnimg.net/w/articles/0/571/a3c3b4c9c9.jpg">
+						<img src="img/esports1.jpg">
 							<h4>Huge eSports Tournaments</h4>
 							<p><i class="fa fa-microchip"></i> $747.5 Million Market Size</p>
 							<p><i class="fa fa-microchip"></i> $53.8 Million Prize Pool
@@ -54,7 +75,7 @@
 				</div>
 				<div class="col-md-3">
 					<figure class="pics">
-						<img src="https://i.redd.it/38qz750zei5y.jpg">
+						<img src="img/setup1.jpg">
 							<h4>Multiscreen Battlestations</h4>
 							<p><i class="fa fa-microchip"></i> Tri-Monitor Setups</p>
 							<p><i class="fa fa-microchip"></i> Full Sized Tower Cases</p>
@@ -63,7 +84,7 @@
 				</div>
 				<div class="col-md-3">
 					<figure class="pics">
-						<img src="http://d.ibtimes.co.uk/en/full/1527012/steam-sale-gaben-gabe-newell.jpg">
+						<img src="img/gabe_sale1.jpg">
 							<h4>Huge Sales</h4>
 							<p><i class="fa fa-microchip"></i> Up to 90% off</p>
 							<p><i class="fa fa-microchip"></i> Cheaper over the long-term</p>
