@@ -5,6 +5,7 @@
 	<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="JQuery/jquery-3.2.1.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="battlestations_style.css">
@@ -87,7 +88,7 @@
       	<div class="item">
       		<img src="img/battlestation5.jpg" alt="Battlestation5">
       		<div class="carousel-caption">
-      			<h2>Audiophile galore</h2>
+      			<h2>Audiophile Galore</h2>
       			<p>Multitude of choices for all audio needs</p>
       		</div>
       	</div>
@@ -106,7 +107,7 @@
 		</p>
 	</section>
 	<section class="PC1">
-		<h1>The Media Elite</h1>
+		<h1 id="h1">The Media Elite</h1>
 		<h3>About</h3>
 			<p>
 				This HTPC is essentially a next-gen console with more versatility. The GPU in this build is capable of performing on-par with the current generation of gaming consoles, and the CPU is more than powerful enough to handle current-gen games without bottlenecking the GPU. You can expect to game at the same frame rates, resolutions, and graphical fidelity as the PS4 or XBoxOne, but you will pay nearly $100 less for the privilege. With SteamOS nearing its full release and the advent of mainstream Linux gaming approaching, you won't even need to pay for your gaming Operating System. Hook this up to the TV, sit down with your console controller of choice, a new Steam controller, or any number of custom USB gamepads, and enjoy console-quality living room gaming with cheaper games... and now a cheaper, more versatile machine... which also has 2x the storage space (if you pick the HDD augmentation).
@@ -169,18 +170,8 @@
 			<ul>
 				<li><a href="https://www.hardwareunboxed.com/amd-radeon-rx-460/">RX 460 Benchmarks</a> - Bear in mind that most of the benchmarked settings and resolutions are MUCH higher than console-quality settings/resolutions.</li>
 			</ul>
+		<form id="form1" action="form-1.html">
+    		<input type="submit" value="Place Your Order" />
+		</form>
 	</section>	
 </body>
-<script>
-var page=1;
-window.onscroll = function(ev) {
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-           ifrm = document.createElement("IFRAME"); 
-        ifrm.setAttribute("src", page+".html"); 
-        ifrm.style.width = 100+"%"; 
-        ifrm.style.height = 800+"px"; 
-        document.body.appendChild(ifrm); 
-        page++
-    }
-};
-</script>
