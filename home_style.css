@@ -353,6 +353,15 @@ input.submit:hover {
     	background-attachment: none;
     }
 
+    .pics img {
+    	width: 300px;
+    	height: 175px;
+    }
+
+    .quotes {
+    	width: 100%;
+    }
+
     div.map {
     	float: left;
     	max-width: 500px;

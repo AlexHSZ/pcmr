@@ -236,3 +236,10 @@ input.submit {
 input.submit:hover {
 	text-decoration: underline;	
 }
+
+@media (min-width: 320px) and (max-width: 740px) {
+	footer {
+		height: 100%;
+	}
+
+@media (min-width: 741px) and (max-width: 1200px) {

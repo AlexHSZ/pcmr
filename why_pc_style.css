@@ -520,3 +520,23 @@ input.submit {
 input.submit:hover {
 	text-decoration: underline;	
 }
+
+@media (min-width: 320px) and (max-width: 740px) {
+	#myCarousel {
+		height: 300px;
+	}
+
+	#myCarousel img {
+		width: 1200px;
+		height: auto;
+	}
+
+	footer {
+    	height: 100%;
+    }
+}
+
+@media (min-width: 741px) and (max-width: 1200px) {
+	#myCarousel {
+		height: 600px;
+	}
