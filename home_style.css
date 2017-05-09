@@ -8,9 +8,8 @@ body {
 
 header {
 	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/home.jpg");
-	height: 100vh;
+	height: 100%;
 	background-position: center;
-	background-size: cover;
 	background-attachment: fixed;
 }
 
@@ -278,8 +277,9 @@ div.social p {
 
 div.map {
 	position: absolute;
-	right: 30%;
+	right: 40%;
 	margin-top: 20px;
+	display: inline-block;
 }
 
 div.map p {
@@ -342,4 +342,15 @@ input.submit {
 
 input.submit:hover {
 	text-decoration: underline;	
+}
+
+@media screen and (min-width: 480px) {
+    footer {
+    	height: 100%;
+    }
+
+    div.map {
+    	float: left;
+    	max-width: 500px;
+    }
 }
