@@ -344,9 +344,13 @@ input.submit:hover {
 	text-decoration: underline;	
 }
 
-@media screen and (min-width: 480px) {
+@media (min-width: 320px) and (max-width: 740px) {
     footer {
     	height: 100%;
+    }
+
+    body {
+    	background-attachment: none;
     }
 
     div.map {
