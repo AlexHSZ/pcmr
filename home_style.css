@@ -118,6 +118,7 @@ header {
 	border: 2px solid rgb(255, 205, 0);
 	padding: 8px 10px;
 	color: white;
+	background-color: transparent;
 	text-decoration: none;
 	border-radius: 10px;
 	margin-right: 20px;
@@ -133,9 +134,13 @@ header {
 	font-family: Arial;
 }
 
+.info {
+	margin-top: 150px;
+}
+
 .info h3 {
 	text-align: center;
-	margin-top: 75px;
+	margin-top: 35px;
 	margin-bottom: 25px;
 	font-family: Arial;
 	font-size: 40px;
@@ -232,12 +237,109 @@ header {
 	line-height: 25px;
 }
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
+footer {
+  width: 100%;
+  height: 400px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: rgb(255,204,0);
+}
+
+footer img {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	width: 40px;
+	height: 40px;
+}
+
+div.social {
+	position: absolute;
+	left: 5%;
+	margin-top: 20px;
+}
+
+div.social li a{
+	color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black
+}
+
+div.social li a:hover{
+	color: black;
+}
+
+}
+div.social p {
+	font-family: Arial;
+	font-size: 18px;
+}
+
+div.map {
+	position: absolute;
+	right: 30%;
+	margin-top: 20px;
+}
+
+div.map p {
+	width: 200px;
+	font-family: Arial;
+	font-size: 18px;
+}
+
+a.social {
+	margin-right: 15px;
+}
+
+div.contact {
+	position: absolute;
+	right: 5%;
+	margin-top: 20px;
+}
+
+footer h3 {
+	margin-top: 10px;
+	color: black;
+	font-size: 30px;
+}
+
+#foot {
+	width: 100%;
+	height: 100%;
+	margin-left: 30px;
+}
+
+#pages {
+	margin-top: 20px;
+}
+
+input.text {
+	height: 30px;
+	width: 200px;
+	border-radius: 3px;
+	border: none;
+}
+
+textarea.message {
+	height: 65px;
+	width: 200px;
+	border-radius: 3px;
+	border: none;
+}
+
+input.submit {
+	width: auto;
+	height: auto;
+	background-color: white;
+	font-size: 20px;
+	font-family: Arial;
+	color: black;
+	border: none;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+input.submit:hover {
+	text-decoration: underline;	
 }
