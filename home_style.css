@@ -79,6 +79,7 @@ header {
 .main-nav {
 	position: fixed;
 	background-color: rgba(0,0,0,0.5);
+	overflow: hidden;
 	list-style: none;
 	text-align: center;
 	display: inline-block;
