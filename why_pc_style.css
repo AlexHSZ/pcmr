@@ -343,7 +343,7 @@ body {
 	background-color: white;
 }
 
-.pcpart1 h2 {
+.pcpart1 h2, .pcpart1 h3{
 	margin-top: 60px;
 	font-size: 50px;
 	font-family: Arial;
@@ -351,13 +351,13 @@ body {
 	text-align: center;
 }
 
-.pcpart1 h2 span {
+.pcpart1 h2 span, .pcpart1 h3 span {
 	background-color: rgb(255, 204, 0);
 	color: black;
 	padding: 4px;
 }
 
-.pcpart1 h2:after {
+.pcpart1 h2:after, .pcpart1 h3:after {
 	width: 100px;
 	height: 3px;
 	background-color: rgb(255, 204, 0);
@@ -367,7 +367,11 @@ body {
 	margin-top: 40px;
 }
 
-.p3 {
+.pcpart1 h3 {
+	font-size: 40px;
+}
+
+.pcpart1 p {
 	margin-left: 10px;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -375,6 +379,22 @@ body {
 	font-family: Arial;
 	text-align: justify;
 	color: black;
+}
+
+.col-xs-12 {
+	text-align: center;
+	margin: 30px;
+}
+
+#feels {
+	width: 30%;
+	height: 50%;
+}
+
+#steam-sale {
+	width: 100%;
+	height: 100%;
+	margin: 50px 0 50px;
 }
 
 .pcpart2 {
@@ -431,9 +451,9 @@ footer img {
 }
 
 div.social {
-	position: absolute;
-	left: 5%;
+	float: left;
 	margin-top: 20px;
+	margin-right: 30px;
 }
 
 div.social li a{
@@ -454,9 +474,9 @@ div.social p {
 }
 
 div.map {
-	position: absolute;
-	right: 30%;
+	float: left;
 	margin-top: 20px;
+	padding-left: 200px;
 }
 
 div.map p {
@@ -470,9 +490,9 @@ a.social {
 }
 
 div.contact {
-	position: absolute;
-	right: 5%;
+	float: left;
 	margin-top: 20px;
+	padding-left: 300px;
 }
 
 footer h3 {
@@ -531,8 +551,31 @@ input.submit:hover {
 		height: auto;
 	}
 
+	#feels {
+		width: 250px;
+		height: 400px;
+	}
+
+	#steam-sale {
+		width: 350px;
+		height: 200px;
+	}
+
+	.pcmr-things {
+		float: left;
+		max-width: 300px;
+	}
+
 	footer {
-    	height: 100%;
+    	height: 1100px;
+    }
+
+    div.map {
+    	padding: 0;
+    }
+
+    div.contact {
+    	padding: 0;
     }
 }
 
@@ -540,3 +583,8 @@ input.submit:hover {
 	#myCarousel {
 		height: 600px;
 	}
+
+	footer {
+    	height: 600px;
+    }
+}
