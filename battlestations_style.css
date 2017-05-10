@@ -513,7 +513,11 @@ input.submit:hover {
 	}
 
 	#myCarousel img {
-		width: 600px;
+		width: 1200px;
+		height: auto;
+	}
+
+	.carousel-inner {
 		height: auto;
 	}
 
@@ -534,6 +538,10 @@ input.submit:hover {
 	#myCarousel {
 		height: 500px;
 		margin-bottom: 300px 
+	}
+
+	.carousel-inner {
+		height: auto;
 	}
 
 	footer {

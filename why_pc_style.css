@@ -551,6 +551,14 @@ input.submit:hover {
 		height: auto;
 	}
 
+	.carousel-indicators {
+		height: auto;
+	}
+
+	.carousel-inner {
+		height: auto;
+	}
+
 	#feels {
 		width: 250px;
 		height: 400px;
@@ -582,6 +590,14 @@ input.submit:hover {
 @media (min-width: 741px) and (max-width: 1200px) {
 	#myCarousel {
 		height: 600px;
+	}
+
+	.carousel-indicators {
+		height: auto;
+	}
+
+	.carousel-inner {
+		height: auto;
 	}
 
 	footer {
